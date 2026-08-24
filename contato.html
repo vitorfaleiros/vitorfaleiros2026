@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Entre em contato</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="img/contato.png">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <!--MENU-->
+        <ul id="nav">
+			<li><a href="index.html">Sonho</a></li>
+			<li><a href="hoje.html">Hoje</a></li>
+			<li><a href="futuro.html">Futuro</a></li>
+			<li><a href="contato.html">Contato</a></li>
+        </ul>
+        <!--título-->
+        <h1>Preencha os campos abaixo</h1>
+        <hr>
+
+        <form>
+			Nome:<input type="text" name="nome" required placeholder="Digite o seu nome" pattern="[a-z A-Z\s]+$" minlenght="3" maxlenght="50" class="texto"><br>
+			E-MAIL: <input type="text" name="email" required placeholder="exemplodeemail1@email.com" class="texto"><br>
+			Sua avaliação: <select name="avalia" class="texto" required><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select><br>
+			Comentários: <br>
+			<textarea cols="60" rows="8" placeholder="Deixe aqui o seu comentário" class="texto"></textarea><br><br>
+			<input type="submit" value="Enviar" class="botao">
+			<input type="reset" value="Limpar" class="botao">
+		</form>
+
+        <div id="footer">
+            <hr>
+            <!--rodapé-->
+            <h5>Vitor Hugo Faleiros 2026 - &copy;Todos os direitos reservados <br>Trabalho acadêmico sem fins lucrativos.</h5>
+            <!--âncora topo-->
+            <a href="#" id="anchor"><img src="img/topo.png" width="3%"></a>
+        </div>
+    </body>
+</html>

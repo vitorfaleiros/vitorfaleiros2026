@@ -1,0 +1,177 @@
+
+*{ 
+     margin: 0px;    
+     padding: 0px; 
+}
+
+body{
+    background-color: rgb(246, 233, 179);
+}
+
+/*configuração básica do texto*/
+p{
+    line-height: 1.5;
+    text-indent: 50px;
+}
+/*fim da configuração básica do texto*/
+
+/*CONFIGURAÇÃO DO MENU*/
+
+a{text-decoration: none; color: #000; }/*tira o sublinhado dos links*/
+
+#nav{
+    width: 580px;
+    height: 80px;
+    line-height: 80px; /* centraliza na vertical */
+    background-color: rgb(255, 200, 128);
+    margin: 0 auto;/*centraliza*/
+    text-align: center;
+}
+
+#nav li{
+    display: inline-block; /* centraliza na horizontal */
+    margin: 0 5px;
+}
+
+#nav li a{
+    background-color: #3d7bb3;
+    border-radius: 6px; /*bordas arredondadas*/
+    padding: 6px 10px;/*padding é o espaçamento antes da borda*/
+    color: #fff;
+}
+
+#nav li a:hover{
+    background-color: #8BBADC;
+}
+
+#nav li a:active{
+    background-color: #f7e478;
+}
+
+/*FIM DA CONFIGURAÇÃO DO MENU*/
+
+/*CONFIGURAÇÃO DO RODAPÉ E TÍTULO*/
+
+#anchor{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#anchor img:hover{
+    transform: scale(103%);
+}
+
+h5{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 5px 0px;
+}
+
+hr{
+    margin: 3px 0px;
+}
+
+/*FIM DA CONFIGURAÇÃO DO RODAPÉ E TÍTULO*/
+
+/*CONFIGURAÇÃO DAS IMAGENS*/
+
+.tabuleiro{
+    height: 300px;
+    width: 300px;
+}
+
+.chess{
+    height: 300px;
+    width: 330px;
+}
+
+.rei{
+    height: 300px;
+    width: 220px;
+}
+
+#banner{
+    width: 880px;
+    height: 310px;
+    line-height: 310px;
+    margin: 0 auto;
+}
+
+#banner img{
+    display: inline-block;
+    margin: 5px 0px;
+    border-radius: 3px;
+}
+
+#banner img:hover{
+    transform: scale(102%);
+}
+
+/*FIM DA CONFIGURAÇÃO DAS IMAGENS*/
+
+/*CONFIGURAÇÃO DA PÁGINA CONTATO*/
+
+form{
+    padding: 5px;
+}
+
+.texto{
+    margin-bottom: 5px;
+    resize: none;
+}
+
+input{
+    width: 230px;
+}
+.botao{
+    width: 80px;
+    height: 30px;
+    background-color: aliceblue;
+}
+.botao:hover{
+    background-color: rgb(199, 229, 255);
+    border-radius: 6px;
+}
+
+select{
+    width: 50px;
+}
+
+/*FIM DA CONFIGURAÇÃO DA PÁGINA CONTATO*/
+
+/*CONFIGURAÇÃO DA PÁGINA HOJE*/
+
+#jeesp{
+    width: 290px;
+    height: 230px;
+    line-height: 190px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+#jeesp:hover{
+    transform: scale(102%);
+}
+
+/*FIM DA CONFIGURAÇÃO DA PÁGINA HOJE*/
+
+/*CONFIGURAÇÃO DA PÁGINA FUTURO*/
+
+#puzzle{
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+#puzzle:hover{
+    transform: scale(102%);
+}
+
+/*FIM DA CONFIGURAÇÃO DA PÁGINA FUTURO*/
